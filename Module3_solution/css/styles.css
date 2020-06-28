@@ -36,6 +36,7 @@ div section {
     left: 10px;
     font-size: 200%;
     font-weight: bold;
+
 }
 #page-heading{
     font-weight: bold;
@@ -46,6 +47,19 @@ h3{
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
-button{
-    color: #2e8b57;
+.navbar-header button.navbar-toggle, .icon-bar{
+    border: 1px solid #4682b4;
+}
+#nav-list a{
+    color: #4682b4;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-nav>li>a{
+    padding: 0px;
+}
+.hr-color{
+    height: 1px;
+    background-color: #4682b4;
+    border: none;
 }
