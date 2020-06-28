@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+.navbar{
+    background-color: #c0c0c0;
+}
+#nav-list > li {
+    text-align: center;
+}
+
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+#section-1{
+    background-color: #66cdaa;
+}
+
+#section-2 {
+    background-color: #dda0dd;
+}
+
+#section-3 {
+    background-color: #f4a460;
+}
+
+#text > h3 {
+    margin-bottom: 15px;
+}
+
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+#page-heading{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+button{
+    color: #2e8b57;
+}
